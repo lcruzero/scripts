@@ -13,7 +13,7 @@ def lambda_handler(event, context):
 
 
     #translate acct no# to friendly name
-    accountName=["bambooprod=950880909537","corebcs=808824028248","corelogs=249475246982","coresecops=188639114030","dustdevildev=636883842329","dustdevilprod=237831351786","dustdevilstage=077594607743","elninodev=729742422785","elninoprod=574526892074","elninostage=315674266177","f5dev=913190200478","f5prod=436751343158","f5stage=368682747592","hazedev=002245141188","hazeprod=507994701454","hazestage=944107818137","infdev=552651952925","infprodvpn=643513054308","infprod=318316747731","infstage=316303769806","monsoondev=704637827957","monsoonprod=140708019862","monsoonstage=500295253484","nimbusdev=836735598406","nimbusprod=087543491196","nimbusstage=203012769823","platformsdevdistribution=790080567225","platformsdev=328926112274","platformsprod=642896844624","platformsstage=360734909313","qadev=754630846216","qaprod=533375140838","qastage=951614904934","sandboxdev=911977357153","servicesdev=421249787774","servicesprod=365852958273","servicesstage=808319953027","summerbreezedev=883042251047","summerbreezeprod=035933670544","summerbreezestage=757507578133","tsunamidev=917206393378","tsunamiprod=570740605148","tsunamistage=717244964802","master=876637047057"]
+    accountName=["accountName1=xxxxxxxxxxxxxxx", "accountName2=xxxxxxxxxxxxxx"]
 
     accountJson=testz['detail']['userIdentity']['accountId']
     account="notFound"
