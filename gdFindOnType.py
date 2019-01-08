@@ -9,6 +9,8 @@ def lambda_handler(event, context):
     json_stdout = (json.dumps(json_data))
     json_stdout=json.loads(json_stdout)
 
+#need to find a way to pull these dynamically 
+
     accountName=["accountName1=000000000000","accountName2=000000000000"]
 
 
