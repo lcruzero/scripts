@@ -4,6 +4,11 @@ import boto3
 import ast
 
 def lambda_handler(event, context):
+#    AST literal_eval(node_or_string)
+#    Safely evaluate an expression node or a string containing a Python
+#    expression.  The string or node provided may only consist of the following
+#    Python literal structures: strings, bytes, numbers, tuples, lists, dicts,
+#    sets, booleans, and None.
 
     t=str(event)
     json_data = ast.literal_eval(t)
