@@ -5,6 +5,12 @@ import re
 
 def lambda_handler(event, context):
     t=str(event)
+#    AST literal_eval(node_or_string)
+#    Safely evaluate an expression node or a string containing a Python
+#    expression.  The string or node provided may only consist of the following
+#    Python literal structures: strings, bytes, numbers, tuples, lists, dicts,
+#    sets, booleans, and None.
+
     json_data = ast.literal_eval(t)
     json_stdout = (json.dumps(json_data))
     json_stdout=json.loads(json_stdout)
