@@ -10,6 +10,7 @@ from requests.exceptions import ConnectionError
 from requests.exceptions import Timeout
 
 def request_urls(filename):
+    #chech against pre or post test files 
     if args.pretest == True:
         file = open('pre_check.txt', 'a')    
     elif args.post == True:
